@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
+import 'semantic-ui-css/semantic.min.css';
 import Header from './components/header';
 import Home from './components/home';
 import ItemView from './containers/list_item_view';

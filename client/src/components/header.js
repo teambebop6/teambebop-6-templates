@@ -1,13 +1,14 @@
 import React from 'react';
+import { Header } from 'semantic-ui-react';
 import logo from '../../res/images/logo.png';
 
-const Header = () => (
+const TBHeader = () => (
   <div style={{ marginTop: 20 }} className="header">
     <div className="logo">
-      <img src={logo} alt="react logo" />
+      <img src={logo} alt="react logo"/>
     </div>
-    <h1>React Redux Router</h1>
+    <Header as="h1">Team Bebop 6</Header>
   </div>
 );
 
-export default Header;
+export default TBHeader;
